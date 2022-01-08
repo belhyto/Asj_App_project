@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity3">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="1. Shoulder and upper back stretch"
+            android:textColor="@color/black"
+            android:textSize="30dp" />
+        <ImageView
+            android:id="@+id/act3img1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/Evening1" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="@color/black"
+            android:text="\n1.Bend your right arm, raising it so your elbow is chest level.\n
+2.Place your left hand on your right elbow and gently pull your right arm across your chest.\n3.Hold for 20 to 30 seconds.\n
+4.Repeat with the opposite arm.\n"
+            android:textSize="25dp"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="@color/black"
+            android:text="2. Abdominal contractions"
+            android:textSize="30dp"/>
+
+        <ImageView
+            android:id="@+id/act3img2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/Evening2" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="@color/black"
+            android:text="1.Take a deep breath and tighten your abdominal muscles.\n
+2.Hold for 3 breaths and then release the contraction.\n
+3.Repeat 10 times. \n"
+            android:textSize="25dp"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="3. Neck stretch"
+            android:textColor="@color/black"
+            android:textSize="30dp"/>
+        <ImageView
+            android:id="@+id/act3img3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/Evening3" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="@color/black"
+            android:text="1.Stand with your feet flat on the floor, shoulder-width apart.\n2.Keep your hands relaxed at your sides.\n
+3.Stop when you feel a slight stretch. Hold for 10 to 30 seconds.\n
+4.Now turn to the left. Hold for 10 to 30 seconds.\n
+5.Repeat 3 to 5 times.\n"
+            android:textSize="25dp"/>
+
+    </LinearLayout>
+</ScrollView>

@@ -10,7 +10,18 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Demo">
         <activity
-            android:name="com.example.asjProject.MainActivity"
+            android:name=".Activity4"
+            android:exported="false" />
+        <activity
+            android:name=".Activity3"
+            android:exported="false" />
+        <activity
+            android:name=".Activity2"
+            android:exported="false"
+            android:label="@string/title_activity_2"
+            android:theme="@style/Theme.Demo.NoActionBar" />
+        <activity
+            android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

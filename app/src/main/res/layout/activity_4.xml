@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity4">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="1.Trikonasana (triangle pose)"
+            android:textColor="@color/black"
+            android:textSize="30dp" />
+        <ImageView
+            android:id="@+id/act4img1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/Yoga1" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="@color/black"
+            android:text="\n1. Stretch your legs 1 feet apart .\n
+2.Reach for your left foot using your right hand.\n3.Hold for 20 to 30 seconds.\n
+4.Repeat with the opposite hand and foot.\n"
+            android:textSize="25dp"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="@color/black"
+            android:text="2.Padmasana (lotus pose)"
+            android:textSize="30dp"/>
+
+        <ImageView
+            android:id="@+id/act4img2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/Yoga2" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="@color/black"
+            android:text="1.Sit down with your legs crossed\n2.Place your hands on kneees with your palms facing up.\n3.Take a deep breath and tighten your abdominal muscles.\n4. Release your breath and repeat.\n
+ "
+            android:textSize="25dp"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="3. Bhujangasana (Cobra Pose)"
+            android:textColor="@color/black"
+            android:textSize="30dp"/>
+        <ImageView
+            android:id="@+id/act4img3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/Yoga3" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="@color/black"
+            android:text="1.Lie down flat on the floor on your stomach.\n2.Pause for a moment looking straight down at the ground.\n3.Inhale to lift your chest off the floor.\n4.Repeat 4-5 times\n"
+            android:textSize="25dp"/>
+
+    </LinearLayout>
+</ScrollView>

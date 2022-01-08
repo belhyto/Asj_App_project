@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity2">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="1. Shoulder blade squeeze"
+            android:textColor="@color/black"
+            android:textSize="30dp" />
+            <ImageView
+                android:id="@+id/act2img1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/Morning1" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="@color/black"
+            android:text="\n1.Take a deep breath and tilt your hips slightly forward. \n
+2.Hold for a 3-count. \n
+3. Now tilt your hips back, and hold for 3 seconds. \n
+4.Repeat 8 to 12 times.\n"
+            android:textSize="25dp"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="@color/black"
+            android:text="2. Knee lifts"
+            android:textSize="30dp"/>
+
+        <ImageView
+            android:id="@+id/act2img2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/Morning2" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="@color/black"
+            android:text="1.Seated in a chair, rest your arms. \n 2.Lift your knee and make sure the back of your thigh should be 2 or 3 inches off the seat. \n
+3.Pause for 3 seconds and slowly lower your leg. \n
+4. Complete 8 to 12 repetitions and then repeat with the opposite leg. \n"
+            android:textSize="25dp"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="3. Ankle rotations"
+            android:textColor="@color/black"
+            android:textSize="30dp"/>
+        <ImageView
+            android:id="@+id/act2img3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/Morning3" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="@color/black"
+            android:text="1.Seated in a chair, lift your right foot off the floor.\n 2.Slowly rotate your foot 5 times to the right and then 5 times to the left.\n
+3.Repeat with the left foot.\n"
+            android:textSize="25dp"/>
+
+    </LinearLayout>
+</ScrollView>
