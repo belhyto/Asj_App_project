@@ -21,7 +21,7 @@
             android:id="@+id/act4img1"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:src="@drawable/Yoga1" />
+            android:src="@drawable/yoga1" />
         <TextView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -43,7 +43,7 @@
             android:id="@+id/act4img2"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:src="@drawable/Yoga2" />
+            android:src="@drawable/yoga2" />
         <TextView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -63,7 +63,7 @@
             android:id="@+id/act4img3"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:src="@drawable/Yoga3" />
+            android:src="@drawable/yoga3" />
         <TextView
             android:layout_width="match_parent"
             android:layout_height="match_parent"

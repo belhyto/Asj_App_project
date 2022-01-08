@@ -28,7 +28,7 @@ class Recycler(): RecyclerView.Adapter<Recycler.ViewHolder>() {
     {
         var itemImage: ImageView = itemView.findViewById(R.id.image_1)
         var itemTitle: TextView  =itemView.findViewById(R.id.text_title)
-        val intent: Intent? = null
+
         init{
         itemView.setOnClickListener{
             val position: Int =adapterPosition
@@ -43,4 +43,4 @@ class Recycler(): RecyclerView.Adapter<Recycler.ViewHolder>() {
 
         }
     }
-    }
+
